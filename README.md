@@ -4,6 +4,9 @@ A Python-based search engine that indexes webpages and retrieves documents using
 
 This project was developed as part of an Information Retrieval course at the University of California, Irvine.
 
+## Example Result
+<img width="1176" height="645" alt="image" src="https://github.com/user-attachments/assets/1f1203d2-e842-40d4-b0c9-6ed86081cce9" />
+
 ## Features
 
 * Build an inverted index from a collection of webpages
