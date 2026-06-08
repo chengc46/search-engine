@@ -2,26 +2,35 @@
 
 ## Overview
 
-A Python-based search engine developed for UCI academic websites.
+A Python-based search engine that indexes webpages and retrieves documents using TF-IDF ranking.
 
 Features:
 - Web Crawling
 - Inverted Index Construction
+- Tokenization & Stemming
 - TF-IDF Ranking
-- Keyword Search
+- Query Processing
 
 ## Technologies
 
 - Python
 - JSON
+- NLTK
 - Information Retrieval
 
 ## Project Structure
 
 build_index.py
+Builds the inverted index.
+
 search_engine.py
+Processes user queries and returns ranked results.
+
 index.json
+Stored inverted index.
+
 doc_ids.json
+Document mapping table.
 
 ## Sample Query
 
