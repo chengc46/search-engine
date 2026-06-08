@@ -3,6 +3,7 @@
 ## Overview
 
 A Python-based search engine that indexes webpages and retrieves documents using TF-IDF ranking.
+Original corpus files are not included due to course dataset restrictions.
 
 Features:
 - Web Crawling
