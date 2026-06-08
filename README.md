@@ -1,48 +1,69 @@
 # Search Engine & Web Crawler
 
-## Overview
+A Python-based search engine that indexes webpages and retrieves documents using information retrieval techniques such as inverted indexing and TF-IDF ranking.
 
-A Python-based search engine that indexes webpages and retrieves documents using TF-IDF ranking.
-Original corpus files are not included due to course dataset restrictions.
+This project was developed as part of an Information Retrieval course at the University of California, Irvine.
 
-Features:
-- Web Crawling
-- Inverted Index Construction
-- Tokenization & Stemming
-- TF-IDF Ranking
-- Query Processing
+## Features
+
+* Build an inverted index from a collection of webpages
+* Process and normalize search queries
+* Apply tokenization and stemming
+* Rank results using TF-IDF scoring
+* Retrieve relevant documents efficiently
 
 ## Technologies
 
-- Python
-- JSON
-- NLTK
-- Information Retrieval
+* Python
+* NLTK
+* BeautifulSoup
+* JSON
+* Information Retrieval
 
 ## Project Structure
 
-build_index.py
-Builds the inverted index.
+```text
+search-engine/
+├── build_index.py
+├── search_engine.py
+├── requirements.txt
+└── data/
+    ├── index.json
+    └── doc_ids.json
+```
 
-search_engine.py
-Processes user queries and returns ranked results.
+### build_index.py
 
-index.json
-Stored inverted index.
+Parses webpage data and generates the inverted index used by the search engine.
 
-doc_ids.json
-Document mapping table.
+### search_engine.py
 
-## Sample Query
+Processes user queries and retrieves ranked search results.
 
-machine learning
+## Running the Project
 
-Results:
-1. ...
-2. ...
-3. ...
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the search engine:
+
+```bash
+python search_engine.py
+```
+
+## Notes
+
+The original webpage corpus is not included in this repository due to course dataset distribution restrictions.
+
+The provided index files are included for demonstration purposes.
 
 ## Author
 
 Cheng Chen
+
+B.S. Informatics, Human-Computer Interaction
+
 University of California, Irvine
